@@ -1,0 +1,17 @@
+.search {
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    width: 85vw;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-bottom: 2rem;
+    transition: 250ms all ease-in-out;
+    border-radius: 3px;
+}
+
+.search:focus {
+    box-shadow: 0 0 0.5rem 0 inset lightgrey;
+    border: 1px solid lightgrey;
+}
